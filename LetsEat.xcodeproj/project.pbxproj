@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8E7FFA25848B6E0092F0AB /* Letseatpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E7FF925848B6E0092F0AB /* Letseatpng.png */; };
 		8DD85CEC2563158600457B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD85CEB2563158600457B72 /* AppDelegate.swift */; };
 		8DD85CEE2563158600457B72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD85CED2563158600457B72 /* SceneDelegate.swift */; };
 		8DD85CF02563158600457B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD85CEF2563158600457B72 /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		8DD85CF62563158600457B72 /* LetsEat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DD85CF42563158600457B72 /* LetsEat.xcdatamodeld */; };
 		8DD85CF82563158600457B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD85CF72563158600457B72 /* Assets.xcassets */; };
 		8DD85CFB2563158600457B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD85CF92563158600457B72 /* LaunchScreen.storyboard */; };
+		8DD85D05256342F100457B72 /* DinerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD85D04256342F100457B72 /* DinerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D8E7FF925848B6E0092F0AB /* Letseatpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Letseatpng.png; sourceTree = "<group>"; };
 		8DD85CE82563158500457B72 /* LetsEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD85CEB2563158600457B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DD85CED2563158600457B72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		8DD85CF72563158600457B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD85CFA2563158600457B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DD85CFC2563158600457B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD85D04256342F100457B72 /* DinerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D8E7FF0258486D30092F0AB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8D8E7FF925848B6E0092F0AB /* Letseatpng.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		8DD85CDF2563158500457B72 = {
 			isa = PBXGroup;
 			children = (
+				8DD85D04256342F100457B72 /* DinerTableViewController.swift */,
 				8DD85CEA2563158500457B72 /* LetsEat */,
 				8DD85CE92563158500457B72 /* Products */,
 			);
@@ -58,6 +71,7 @@
 		8DD85CEA2563158500457B72 /* LetsEat */ = {
 			isa = PBXGroup;
 			children = (
+				8D8E7FF0258486D30092F0AB /* Images */,
 				8DD85CEB2563158600457B72 /* AppDelegate.swift */,
 				8DD85CED2563158600457B72 /* SceneDelegate.swift */,
 				8DD85CEF2563158600457B72 /* ViewController.swift */,
@@ -127,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8E7FFA25848B6E0092F0AB /* Letseatpng.png in Resources */,
 				8DD85CFB2563158600457B72 /* LaunchScreen.storyboard in Resources */,
 				8DD85CF82563158600457B72 /* Assets.xcassets in Resources */,
 				8DD85CF32563158600457B72 /* Main.storyboard in Resources */,
@@ -140,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD85D05256342F100457B72 /* DinerTableViewController.swift in Sources */,
 				8DD85CF02563158600457B72 /* ViewController.swift in Sources */,
 				8DD85CEC2563158600457B72 /* AppDelegate.swift in Sources */,
 				8DD85CF62563158600457B72 /* LetsEat.xcdatamodeld in Sources */,
@@ -299,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.LetsEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.LetsEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
