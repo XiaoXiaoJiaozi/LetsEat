@@ -285,12 +285,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bon Appetit!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gby-03-mlA">
-                                <rect key="frame" x="33" y="200" width="348" height="81"/>
+                                <rect key="frame" x="33" y="124" width="348" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="103"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goodtimes.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xjG-8c-xtQ">
+                                <rect key="frame" x="-85" y="100" width="532" height="656"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hty-U8-vi7"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
@@ -302,11 +306,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VF9-Wy-tSv"/>
         <segue reference="AQP-2f-sX6"/>
         <segue reference="sDD-qm-G6U"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="goodtimes.jpg" width="1240" height="775"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
